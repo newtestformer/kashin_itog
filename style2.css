@@ -1,0 +1,122 @@
+header{
+    background-color: rgb(6, 71, 167);
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.container{
+    display: table;
+}
+.container img{
+    margin: 0;
+    padding-right: 50px;
+    display: table-cell;
+    z-index: 2;
+
+}
+.container .log{
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+    font-size: 2rem;
+    z-index: 2;
+}
+nav{
+    top: 64px;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    z-index: 2;
+}
+#menu{
+    margin: 0 auto;
+    width: 101%;
+    
+}
+
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+#menu ul li{
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 33%;
+    
+    float: left;
+    list-style-type: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+    
+    color:white;
+   display: block;
+    font-size: 1.5rem;
+    background-color:rgb(6, 71, 167);
+}
+#menu ul li a:hover{
+    background-color: rgb(63, 140, 255);
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.card{
+    width: 131%;
+
+    margin: 10px auto;
+    position:relative;
+    display: table;
+    border: 1px solid rgba(11, 89, 235, 0.5);
+}
+.cont{
+    width: 100%;
+}
+.card .image{
+    display: table-cell;
+    width: 90%;
+    vertical-align: middle;
+    margin: 20px;
+    
+}
+.card .write{
+    width: 60%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+.product img{
+    height: 450px;
+    width: 100%;
+}
+main{
+    justify-content: space-between;
+    width: 75%;
+    margin: 20px;
+    text-align: justify;
+    float:left;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 1.2em;
+}
+img{
+    width: 50%;
+}
+     *{
+        margin: 0;
+    }
+.day{
+    font-size: 3em;
+    text-align: right;
+    margin-top: 30px;
+    
+}
